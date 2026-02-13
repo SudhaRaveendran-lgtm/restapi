@@ -1,4 +1,20 @@
-import { useState } from 'react'
+import React from 'react'
+import AddUser from './adduser/AddUser'
+import Users from './getuser/Users'
+
+function App() {
+  return (
+    <div>
+    <h1> Welcome to front end</h1>
+    <AddUser/>
+    <Users/>
+    </div>
+  )
+}
+
+export default App
+
+/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default App*/
